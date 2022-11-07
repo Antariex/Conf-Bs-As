@@ -46,6 +46,7 @@ box-sizing: border-box !important
     display: flex-block;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .tarjeta {
@@ -67,4 +68,11 @@ box-sizing: border-box !important
 
 .documentacion {
     color: grey;
+}
+
+.boton {
+    max-width: 49%;
+    margin: 5px;
+    background-color: #98ca50;
+    color: white"
 }
