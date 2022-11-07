@@ -43,14 +43,15 @@ box-sizing: border-box !important
 }
 
 .contenedortarjeta {
-    display: flex;
+    display: flex-block;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .tarjeta {
     display: inline-block;
     text-align: center;
-    width: 28%;
+    width: auto;
     border: 1px solid blue;
     padding: 10px;
     margin: 10px;
