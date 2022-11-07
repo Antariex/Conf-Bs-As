@@ -5,5 +5,5 @@ resumir = () => {
     let descuento = document.getElementById('categoria').value;
     let precio = cantidad * (precioTicket - ((precioTicket * descuento)/200));
 
-    document.getElementById('compraTotal').value = precio;
+    document.getElementById('compraTotal').value = 'Total a pagar: $' + precio;
 }
