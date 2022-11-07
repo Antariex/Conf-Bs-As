@@ -1,9 +1,9 @@
 const precioTicket = 200;
 
 resumir = () => {
-    let descuento = document.getElementById('categoria');
-    let cantidad = document.getElementById('cantidad');
+    let cantidad = document.getElementById('cantidad').value;
+    let descuento = document.getElementById('categoria').value;
     let precio = cantidad * (precioTicket - ((precioTicket * descuento)/200));
 
-    document.getElementById('compraTotal') = 'Total a pagar: $' + precio;
+    document.getElementById('compraTotal').value = precio;
 }
