@@ -41,3 +41,29 @@ box-sizing: border-box !important
     color: #fff !important;
     font-style: none !important;
 }
+
+.contenedortarjeta {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tarjeta:hover {
+    border: 1px solid #98ca50;
+}
+
+.descuento {
+    font-weight: bold;
+}
+
+.documentacion {
+    color: grey;
+}
