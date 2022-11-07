@@ -104,13 +104,13 @@
 
         <div class="col-sm-6">
           <label for="cantidad" class="form-label" id="cantidad" required>Cantidad</label>
-          <input type="number" class="form-control" placeholder="cantidad" aria-label="cantidad">
+          <input type="number" class="form-control" placeholder="cantidad" min="1" max="22" aria-label="cantidad">
         </div>
 
         <div class="col-sm-6">
           <label for="categoria" class="form-label">Categoría</label>
           <select class="form-select" id="categoria" required>
-            <option value="">Elegir...</option>
+            <option>Elegir...</option>
             <option value="80">Estudiante</option>
             <option value="50">Trainee</option>
             <option value="15">Junior</option>
@@ -124,10 +124,10 @@
         </div>
         </div>
 
-        <button type="reset" class="btn mb-2" style="width: 49%; margin: 5px; background-color: #98ca50; color: white">
+        <button type="reset" class="btn mb-2" style="max-width: 49%; margin: 5px; background-color: #98ca50; color: white">
           Borrar
         </button>
-        <button type="button" class="btn mb-2" onClick="resumir()" style="width: 49%; margin: 5px; background-color: #98ca50; color: white">
+        <button type="button" class="btn mb-2" onClick="resumir()" style="max-width: 49%; margin: 5px; background-color: #98ca50; color: white">
           Resumen
         </button>
       </div>
